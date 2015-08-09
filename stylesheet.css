@@ -1,0 +1,148 @@
+.jumbotron {
+  background-image:url('http://www.kttravel.ie/wp-content/uploads/2015/03/Lake-Louise-Canada-Landscape-Wallpaper.jpg');
+  height: 250px;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.paper {
+    width: auto;
+    margin: 0 auto 10px;
+    padding: 6px 5px 10px 42px;
+    position: relative;
+    color: #444;
+    line-height: 20px;
+    border: 2px solid black;
+ 
+    background: #fff;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+    background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+ 
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    -ms-background-size: 100% 20px;
+    -o-background-size: 100% 20px;
+    background-size: 100% 20px;
+ 
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+ 
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+
+.paper::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: red;
+}
+
+
+.paper h2 {
+    font-size: 45px;
+   	font-family: 'Lobster', cursive;
+   	color: #00000;
+    line-height: 32px;
+    margin: 0 0 4px;
+}
+
+.jumbotron h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.jumbotron p {
+	
+	color: white;
+	font-family: 'Merienda One', cursive;
+	font-size: 15;
+	background-color: black;
+	border: 2px solid black;
+	padding: 5;
+	padding-right: 40;
+	margin: auto;
+}
+
+.summary-qual h3{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.work-experience h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	text-shadow: 4px 4px 8px black;
+	color: white;
+	background-color: blue;
+	border: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.work-experience h4 {
+margin: 0; 
+padding: 0;
+font-weight: bold; 
+}
+
+.education h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	text-shadow: 4px 4px 8px black;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.education p {
+margin: 0; 
+padding: 0;
+font-weight: bold; 
+}
+
+.interests h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-weight: bold;
+	text-shadow: 4px 4px 8px black;
+	color: white;
+	background-color: blue;
+	border: 2px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.col-md-4 .thumbnail {
+	position: auto;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+.not-jumbotron {
+	background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/d8/Polka_Dot_and_Bow_Cupcakes_(4421129027).jpg');
+	background-repeat: repeat;
+  background-size: cover;
+}
+
+.white-background{
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+}
