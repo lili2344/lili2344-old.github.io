@@ -4,6 +4,10 @@
   background-repeat: repeat;
   background-size: cover;
 }
+.interests2 {
+	width: auto;
+	margin: 0 auto 10px;
+}
 
 .paper {
     width: auto;
